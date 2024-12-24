@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-theatre__content {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.about-theatre__title {
+
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+
+}
+
+.gold-font {
+    color: #D1A954;
+
+}
+
+.about-theatre__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.about-theatre__column {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about-theatre__cubmain {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+}
+
+.about-theatre__text {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+    color: #FFFFFF;
+    max-width: 445px;
+
+}
+
+.about-theatre__nums {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.about-theatre__nums-block {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nums-block__text {
+
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+
+    color: white;
+
+
+}
+
+.nums-block__img {
+
+    height: 292px;
+}
+
+.nums-block__icon{
+    width: 70px;
+    height: 70px;
+
+}

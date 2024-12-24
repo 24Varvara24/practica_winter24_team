@@ -1,0 +1,658 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    background-color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-theatre__content {
+    /* height: 450px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 80px;
+}
+
+.about-theatre__title {
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+
+}
+
+.gold-font {
+    color: #D1A954;
+
+}
+
+.about-theatre__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.about-theatre__column {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about-theatre__cubmain {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+}
+
+.about-theatre__text {
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+    color: #FFFFFF;
+    max-width: 445px;
+
+}
+
+.about-theatre__nums {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.about-theatre__nums-block {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nums-block__text {
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+
+    color: white;
+
+
+}
+
+.nums-block__img {
+
+    height: 292px;
+}
+
+.nums-block__icon {
+    width: 70px;
+    height: 70px;
+
+}
+
+
+.performans-desc {
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.block_main_performans {
+    background-image: url('/css/mainpage/img/perf1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 670px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.performans-date {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #D1A954;
+}
+
+.performans-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 128px;
+    font-weight: lighter;
+    color: #FFFFFF;
+}
+
+.btn1 {
+    width: 210px;
+    height: 50px;
+    border: #D1A954;
+    background-color: #D1A954;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+
+.critic {
+    background-image: url(img/rating.svg);
+    width: 73%;
+    height: 550px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.yellow {
+    color: #D1A954;
+}
+
+.partners {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.title {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.partners__img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.where {
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.where__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.where__info__texts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.where__info__texts__text {
+    color: white;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.contacts {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.decoration {
+    text-decoration: none;
+}
+
+.contacts__text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contacts__title {
+    color: #D1A954;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+
+}
+
+.contacts__info {
+    color: white;
+    font-size: 21px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.mecenat {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    width: 85%;
+    gap: 90px;
+}
+
+.mecenat__supp__info {
+    color: white;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.mecenat__block {
+    display: flex;
+
+}
+
+.mecenat__info__inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mecenat__supp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.inputs {
+    outline: none;
+    color: #989898;
+    background-color: #444444;
+    border: 1px solid #616161;
+    padding: 15px;
+}
+
+.inputswidth {
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.mecenat__info__send__text {
+    font-size: 12px;
+    color: #989898;
+    width: 46%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.mecenat__info__send {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#textarea {
+    width: 34%;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.pers-acc__content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 30px;
+
+
+}
+
+.pers__title {
+    align-self: center;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 65px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+}
+
+/* .gold-text {
+    color: ;
+} */
+.pers-acc__data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.data__line {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.data__col {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.pers__img {
+    width: 100px;
+}
+
+.data__block {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.data__lable {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.data__meaning {
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+}
+
+.data__support {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(209, 169, 84, 0);
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+.data__support:hover {
+    border-bottom: 2px solid #D1A954;
+    transition: .8px;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+
+    width: 190px;
+    height: 50px;
+    background-color: #D1A954;
+    color: #fff;
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+.btn:hover{
+    cursor: pointer;
+    border: none;
+
+    width: 190px;
+    height: 50px;
+    background-color: #D1A954;
+    color: #fff;
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.ticket {
+    padding: 15px;
+gap: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #D1A954;
+    width: 100%;
+
+}
+
+.ticket__col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ticket__img {
+    width: 128px;
+    height: 128px;
+    color: #D1A954;
+
+}
+
+.btn3 {
+    cursor: pointer;
+    border: none;
+
+width: 200px;
+height: 50px;
+    padding: 25px 50px;
+    background-color: #D1A954;
+    color: #fff;
+
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    /* line-height: 25px; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.ticket__order-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* row-gap: 20px; */
+}
+
+.ticket__order-num,
+.ticket__status,
+.ticket__price,
+.ticket__order-owner {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.order-num__label,
+.row__label,
+.status__label,
+.price__label,
+.seat__label,
+.order-owner__label {
+
+
+    font-family: 'Open Sans ' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    /* line-height: 33px; */
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #D1A954;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.order-num__value,
+.row__value,
+.status__value,
+.price__value,
+.seat__value,
+.order-owner__value {
+
+
+    font-family: 'Open Sans ' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    /* line-height: 33px; */
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+
+}
+
+.ticket__btns {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+
+.ticket__performance-name {
+    /* чародейка */
+
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 65px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+
+.place {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.row,
+.seat {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0;
+}
+p{
+    margin-bottom: 0px;
+}

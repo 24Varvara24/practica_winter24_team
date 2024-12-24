@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    background-color: #333;
+    width: 100%;
+}
+
+.reg {
+    width: inherit;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.reg__content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 30px;
+    align-items: center;
+}
+
+.reg__title {
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 65px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+}
+
+.reg__block {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.inp__block {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inp__lable {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #D1A954;
+
+
+}
+
+.input {
+
+
+    border: 1px solid #616161;
+    background-color: #444;
+
+    width: 300px;
+    height: 35px;
+    padding-left: 30px;
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+    display: flex;
+    align-items: center;
+
+    color: #989898;
+    cursor: pointer;
+
+}
+
+.input::placeholder {
+
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+    display: flex;
+    align-items: center;
+
+    color: #989898;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+
+    width: 120px;
+    height: 50px;
+    background-color: #D1A954;
+    color: #fff;
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+}
